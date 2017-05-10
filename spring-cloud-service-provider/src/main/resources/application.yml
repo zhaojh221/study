@@ -1,0 +1,17 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: service-provider
+  jpa:
+    generate-ddl: false
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    platform: mysql
+    url: jdbc:mysql://127.0.0.1:3306/demo?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: password
+    schema: classpath:schema.sql
+    data: classpath:data.sql
