@@ -1,6 +1,6 @@
----
-spring:
-  profiles: peer1
+#---
+#spring:
+#  profiles: peer1
 server:
   port: 8761                    
   servlet-path: 
@@ -8,18 +8,20 @@ eureka:
   instance:
     hostname: peer1         
   client: 
+    register-with-eureka: false
+    fetch-registry: false
     serviceUrl: 
-      defaultZone: http://peer1:8761/eureka,http://peer2:8762/eureka
+      defaultZone: http://peer1:8761/eureka #,http://peer2:8762/eureka
       
----
-spring: 
-  profiles: peer2
-server:
-  port: 8762                  
-  servlet-path: 
-eureka:
-  instance:
-    hostname: peer2         
-  client: 
-    serviceUrl: 
-      defaultZone: http://peer1:8761/eureka,http://peer2:8762/eureka
+#---
+#spring: 
+#  profiles: peer2
+#server:
+#  port: 8762                  
+#  servlet-path: 
+#eureka:
+#  instance:
+#    hostname: peer2         
+#  client: 
+#    serviceUrl: 
+#      defaultZone: http://peer1:8761/eureka,http://peer2:8762/eureka

@@ -1,0 +1,5 @@
+/home/zjh/workspace/spring-cloud-study/spring-cloud-service-provider/src/main/java/com/ootb/cloud/repository/UserRepository.java
+/home/zjh/workspace/spring-cloud-study/spring-cloud-service-provider/src/main/java/com/ootb/cloud/repository/RoleRepository.java
+/home/zjh/workspace/spring-cloud-study/spring-cloud-service-provider/src/main/java/com/ootb/cloud/entity/Role.java
+/home/zjh/workspace/spring-cloud-study/spring-cloud-service-provider/src/main/java/com/ootb/cloud/ProviderApplication.java
+/home/zjh/workspace/spring-cloud-study/spring-cloud-service-provider/src/main/java/com/ootb/cloud/entity/User.java
