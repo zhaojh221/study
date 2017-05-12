@@ -40,5 +40,6 @@
 		<module>spring-cloud-service-discovery</module>
 		<module>spring-cloud-service-provider</module>
 		<module>spring-cloud-service-consumer</module>
+		<module>spring-cloud-service-hystrix-dashboard</module>
 	</modules>
 </project>
